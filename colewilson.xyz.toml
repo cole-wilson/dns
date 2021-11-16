@@ -1,0 +1,32 @@
+[[@]]
+type = "A"
+value = "52.203.36.44"
+
+[[@]]
+type = "A"
+value = "52.73.87.228"
+
+[[@]]
+type = "MX"
+	[[@.values]]
+	exchange = "mx1.improvmx.com"
+	preference = 10
+	[[@.values]]
+	exchange = "mx2.improvmx.com"
+	preference = 20
+
+[[@]]
+type = "AAAA"
+value = "2604:a880:400:d0::1738:6001"
+
+[[@]]
+type = "AAAA"
+value = "2604:a880:400:d0::1757:9001"
+
+[*]
+type = "CNAME"
+value = "colewilson.netlify.app"
+
+[scrapbook]
+type = "CNAME"
+value = "cname.vercel-dns.com"
