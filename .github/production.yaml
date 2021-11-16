@@ -1,0 +1,22 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./domains
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    email: env/CLOUDFLARE_EMAIL
+    token: env/CLOUDFLARE_TOKEN
+
+zones:
+  colewilson.xyz.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+
+  cole.ws.:
+    sources:
+      - config
+    targets:
+      - cloudflare
