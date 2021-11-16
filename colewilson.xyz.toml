@@ -4,10 +4,13 @@ values = ["52.203.36.44", "52.73.87.228"]
 
 [["@"]]
 type = "MX"
-values = [
-	{exchange = "mx1.improvmx.com", preference = 10},
-	{exchange = "mx2.improvmx.com", preference = 20},
-]
+	[["@".values]]
+	exchange = "mx1.improvmx.com"
+	preference = 10
+
+	[["@".values]]
+	exchange = "mx2.improvmx.com"
+	preference = 20
 
 [["@"]]
 type = "AAAA"

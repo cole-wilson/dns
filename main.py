@@ -13,12 +13,12 @@ os.mkdir(basedir / 'domains')
 for file in basedir.glob("*"):
     if str(file).endswith('.toml') and str(file).count('.') == 2:
         data = toml.load(file)
-
+        print(data)
         if "@" in data:
             data[""] = data["@"]
             del data["@"]
 
-        output = yaml.dump(data)
+        output = yaml.safe_dump(data)
 
         with open(basedir / 'domains' / str(file).replace('.toml', '.yaml'), 'w+') as output_file:
             output_file.write(output)
