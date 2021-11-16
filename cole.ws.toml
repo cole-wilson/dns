@@ -1,8 +1,8 @@
-[[@]]
+[["@"]]
 type = "MX"
 values = ["mx01.mail.icloud.com.", "mx02.mail.icloud.com."]
 
-[[@]]
+[["@"]]
 type = "TXT"
 values = [
 	"apple-domain=bmH8TRC119hU46V3",
