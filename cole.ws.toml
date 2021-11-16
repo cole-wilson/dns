@@ -1,16 +1,15 @@
 [["@"]]
 type = "MX"
-values = ["mx01.mail.icloud.com.", "mx02.mail.icloud.com."]
-
-[["@"]]
-type = "TXT"
 	[["@".values]]
 	exchange = "mx01.mail.icloud.com."
 	preference = 10
-
 	[["@".values]]
 	exchange = "mx02.mail.icloud.com."
 	preference = 20
+
+[["@"]]
+type = "TXT"
+values = ["apple-domain=bmH8TRC119hU46V3", "v=spf1 redirect=icloud.com"]
 
 [[sig1._domainkey]]
 type = "CNAME"
