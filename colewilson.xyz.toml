@@ -1,8 +1,4 @@
 [["@"]]
-type = "A"
-values = ["52.203.36.44", "52.73.87.228"]
-
-[["@"]]
 type = "MX"
 	[["@".values]]
 	exchange = "mx01.mail.icloud.com."
@@ -13,6 +9,10 @@ type = "MX"
 	exchange = "mx02.mail.icloud.com."
 	preference = 10
 	ttl = 3600
+
+[["@"]]
+type = "A"
+values = ["52.203.36.44", "52.73.87.228"]
 
 ["sig1._domainkey"]
 type = "CNAME"
