@@ -1,11 +1,11 @@
 [["@"]]
 type = "MX"
-	[["@".values]]
-	exchange = "mx01.mail.icloud.com."
-	preference = 10
-	[["@".values]]
-	exchange = "mx02.mail.icloud.com."
-	preference = 20
+values = [
+	{exchange = "mx1.improvmx.com.", preference = 10},
+	{exchange = "mx2.improvmx.com.", preference = 20},
+	{exchange = "mx01.mail.icloud.com.", preference = 110},
+	{exchange = "mx02.mail.icloud.com.", preference = 120},
+]
 
 [["@"]]
 type = "TXT"
