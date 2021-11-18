@@ -4,12 +4,6 @@ values = ["52.203.36.44", "52.73.87.228"]
 
 [["@"]]
 type = "MX"
-#	[["@".values]]
-#	exchange = "mx1.improvmx.com."
-#	preference = 10
-#	[["@".values]]
-#	exchange = "mx2.improvmx.com."
-#	preference = 20
 	[["@".values]]
 	exchange = "mx01.mail.icloud.com."
 	preference = 10
@@ -23,7 +17,7 @@ value = "sig1.dkim.colewilson.xyz.at.icloudmailadmin.com."
 
 [["@"]]
 type = "TXT"
-values = ["apple-domain=PtBS7s7YmcwRTyC6", "v=spf1 redirect=icloud.com"]
+values = ["apple-domain=QTavCrI9LI5cSQIi", "v=spf1 redirect=icloud.com"]
 
 [["@"]]
 type = "AAAA"
