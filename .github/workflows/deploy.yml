@@ -13,11 +13,11 @@ jobs:
       - uses: actions/setup-python@v1
         with:
           python-version: '3'
-      - name: Install OctoDNS
+      - name: install dependencies
         run: pip install 'octodns==0.9.10' 'pyyaml' 'toml'
       - name: toml -> yaml
-        run: python ./main.py
-      - name: Sync w/ production DNS providers
+        run: python ./.github/bin/main.py
+      - name: sync
         run: ./.github/bin/sync
         env:
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
