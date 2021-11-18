@@ -11,7 +11,7 @@ type = "MX"
 #	exchange = "mx2.improvmx.com."
 #	preference = 20
 	[["@".values]]
-	exchange = "mx02.mail.icloud.com."
+	exchange = "mx01.mail.icloud.com."
 	preference = 10
 	[["@".values]]
 	exchange = "mx02.mail.icloud.com."
