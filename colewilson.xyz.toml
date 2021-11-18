@@ -17,7 +17,7 @@ type = "MX"
 	exchange = "mx02.mail.icloud.com."
 	preference = 120
 
-[sig1._domainkey]
+["sig1._domainkey"]
 type = "CNAME"
 value = "sig1.dkim.colewilson.xyz.at.icloudmailadmin.com."
 
