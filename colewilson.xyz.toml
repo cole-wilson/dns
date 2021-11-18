@@ -15,7 +15,7 @@ type = "MX"
 	preference = 10
 	[["@".values]]
 	exchange = "mx02.mail.icloud.com."
-	preference = 20
+	preference = 10
 
 ["sig1._domainkey"]
 type = "CNAME"
