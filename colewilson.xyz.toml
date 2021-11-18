@@ -7,9 +7,12 @@ type = "MX"
 	[["@".values]]
 	exchange = "mx01.mail.icloud.com."
 	preference = 10
+	ttl = 3600
+	
 	[["@".values]]
 	exchange = "mx02.mail.icloud.com."
 	preference = 10
+	ttl = 3600
 
 ["sig1._domainkey"]
 type = "CNAME"
