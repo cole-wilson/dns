@@ -21,6 +21,9 @@ values = ["apple-domain=bmH8TRC119hU46V3", "v=spf1 redirect=icloud.com"]
 type = "CNAME"
 value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."
 
+[ridgeback]
+type = "A"
+value = "152.67.248.193"
 ["*.ridgeback"]
 type = "A"
 value = "152.67.248.193"
