@@ -9,14 +9,14 @@ fireball = {type = "A", value = "152.67.225.191"}
 [["@"]]
 type = "MX"
 values = [
-	{exchange="mx1.improvmx.com.", preference = 10},
-	{exchange="mx2.improvmx.com.", preference = 20},
-	{exchange="mx01.mail.icloud.com.", preference = 110},
-	{exchange="mx02.mail.icloud.com.", preference = 120},
+#	{exchange="mx1.improvmx.com.", preference = 10},
+#	{exchange="mx2.improvmx.com.", preference = 20},
+	{exchange="mx01.mail.icloud.com.", preference = 10},
+	{exchange="mx02.mail.icloud.com.", preference = 10},
 ]
 [["@"]]
 type = "TXT"
-values = ["apple-domain=bmH8TRC119hU46V3", "v=spf1 redirect=icloud.com"]
+values = ["apple-domain=lc3PH4xC5unAZ9aq", "v=spf1 redirect=icloud.com"]
 
 [[f]]
 type = "MX"
