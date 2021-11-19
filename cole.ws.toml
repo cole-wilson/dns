@@ -1,5 +1,5 @@
 "apex._domainkey" = {type = "CNAME", value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."}
-"sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.family.cole.ws.at.icloudmailadmin.com."}
+"sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.f.cole.ws.at.icloudmailadmin.com."}
 
 ridgeback = {type = "A", value = "152.67.248.193"}
 fireball = {type = "A", value = "152.67.225.191"}
@@ -18,13 +18,13 @@ values = [
 type = "TXT"
 values = ["apple-domain=bmH8TRC119hU46V3", "v=spf1 redirect=icloud.com"]
 
-[[family]]
+[[f]]
 type = "MX"
 values = [
 	{exchange="mx01.mail.icloud.com.", preference = 10},
 	{exchange="mx02.mail.icloud.com.", preference = 10},
 ]
 
-[[family]]
+[[f]]
 type = "TXT"
-values = ["apple-domain=EgyUSczMNALsayEy", "v=spf1 redirect=icloud.com"]
+values = ["apple-domain=DJhWxHXKq4LG6Zzg", "v=spf1 redirect=icloud.com"]
