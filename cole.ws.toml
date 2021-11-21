@@ -10,7 +10,7 @@ fireball = {type = "A", value = "152.67.225.191"}
 
 [["@"]]
 type = "ALIAS"
-values = "ALIAS apex-loadbalancer.netlify.com."
+values = "apex-loadbalancer.netlify.com."
 
 [["@"]]
 type = "MX"
