@@ -5,12 +5,12 @@ ridgeback = {type = "A", value = "152.67.248.193"}
 fireball = {type = "A", value = "152.67.225.191"}
 "*.ridgeback" = {type = "A", value = "152.67.248.193"}
 "*.fireball" = {type = "A", value = "152.67.225.191"}
-"www" = {type = "CNAME", value = "colews.netlify.app."}
+www = {type = "CNAME", value = "colews.netlify.app."}
 
 
 [["@"]]
 type = "ALIAS"
-values = "apex-loadbalancer.netlify.com."
+value = "apex-loadbalancer.netlify.com."
 
 [["@"]]
 type = "MX"
