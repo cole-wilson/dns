@@ -24,7 +24,11 @@ values = [
 ]
 [["@"]]
 type = "TXT"
-values = ["apple-domain=lc3PH4xC5unAZ9aq", "v=spf1 redirect=icloud.com"]
+values = [
+	"apple-domain=lc3PH4xC5unAZ9aq",
+	"v=spf1 redirect=icloud.com",
+	"google-site-verification=wQK8ZNYSxhp5heE1UlmHUYQxpPbQ24RjqTW_p_DXI54"
+]
 
 [[f]]
 type = "MX"
