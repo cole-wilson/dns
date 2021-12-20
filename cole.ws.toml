@@ -18,10 +18,10 @@ value = "apex-loadbalancer.netlify.com."
 [["@"]]
 type = "MX"
 values = [
-#	{exchange="mx1.improvmx.com.", preference = 10},
-#	{exchange="mx2.improvmx.com.", preference = 20},
-	{exchange="mx01.mail.icloud.com.", preference = 10},
-	{exchange="mx02.mail.icloud.com.", preference = 10},
+	{exchange="mx1.improvmx.com.", preference = 10},
+	{exchange="mx2.improvmx.com.", preference = 20},
+	{exchange="mx01.mail.icloud.com.", preference = 100},
+	{exchange="mx02.mail.icloud.com.", preference = 100},
 ]
 [["@"]]
 type = "TXT"
