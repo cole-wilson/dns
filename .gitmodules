@@ -1,0 +1,3 @@
+[submodule "private-dns"]
+	path = private-dns
+	url = git@github.com:cole-wilson/private-dns.git
