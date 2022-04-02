@@ -1,6 +1,3 @@
-"sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."}
-#"sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.f.cole.ws.at.icloudmailadmin.com."}
-
 bin = {type = "A", value = "152.67.248.193"}
 nosource = {type = "A", value = "152.67.248.193"}
 http = {type = "A", value = "152.67.248.193"}
@@ -9,6 +6,7 @@ fireball = {type = "A", value = "152.67.225.191"}
 "*.ridgeback" = {type = "A", value = "152.67.248.193"}
 "*.fireball" = {type = "A", value = "152.67.225.191"}
 www = {type = "CNAME", value = "colews.netlify.app."}
+"sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."}
 
 
 [["@"]]
@@ -18,26 +16,14 @@ value = "apex-loadbalancer.netlify.com."
 [["@"]]
 type = "MX"
 values = [
-	{exchange="mx1.improvmx.com.", preference = 10},
-	{exchange="mx2.improvmx.com.", preference = 20},
-	{exchange="mx01.mail.icloud.com.", preference = 100},
-	{exchange="mx02.mail.icloud.com.", preference = 100},
-]
-[["@"]]
-type = "TXT"
-values = [
-	"apple-domain=lc3PH4xC5unAZ9aq",
-	"v=spf1 redirect=icloud.com",
-	"google-site-verification=wQK8ZNYSxhp5heE1UlmHUYQxpPbQ24RjqTW_p_DXI54"
-]
-
-[[f]]
-type = "MX"
-values = [
 	{exchange="mx01.mail.icloud.com.", preference = 10},
 	{exchange="mx02.mail.icloud.com.", preference = 10},
 ]
 
-[[f]]
+[["@"]]
 type = "TXT"
-values = ["apple-domain=DJhWxHXKq4LG6Zzg", "v=spf1 redirect=icloud.com"]
+values = [
+	"v=spf1 redirect=icloud.com include:icloud.com ~all",
+	"apple-domain=cscpnfpJE1fvkkyl",
+	"google-site-verification=wQK8ZNYSxhp5heE1UlmHUYQxpPbQ24RjqTW_p_DXI54"
+]
