@@ -1,5 +1,6 @@
 bin = {type = "A", value = "152.67.248.193"}
 nosource = {type = "A", value = "152.67.248.193"}
+ctf = {type = "A", value = "152.67.248.193"}
 http = {type = "A", value = "152.67.248.193"}
 ridgeback = {type = "A", value = "152.67.248.193"}
 fireball = {type = "A", value = "152.67.225.191"}
