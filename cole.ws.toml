@@ -8,7 +8,7 @@ fireball = {type = "A", value = "152.67.225.191"}
 "*.fireball" = {type = "A", value = "152.67.225.191"}
 www = {type = "CNAME", value = "colews.netlify.app."}
 "sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."}
-
+laptop = {type = "A", value = "192.168.0.81"}
 
 [["@"]]
 type = "ALIAS"
