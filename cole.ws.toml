@@ -10,7 +10,7 @@ www = {type = "CNAME", value = "colews.netlify.app."}
 "sig1._domainkey" = {type = "CNAME", value = "sig1.dkim.cole.ws.at.icloudmailadmin.com."}
 laptop = {type = "A", value = "192.168.0.81"}
 "*.laptop" = {type = "A", value = "192.168.0.81"}
-"docs.google.com.document.d.qjsovaddglwxljkt5pq0jsovadglytyte0kemleoeuxtp" = {type = "A", value = "192.168.0.81"}
+"docs.google.com.document.d.qjsovaddglwxljkt5pq0jsovadglytyte0k" = {type = "A", value = "152.67.225.191"}
 
 [["@"]]
 type = "ALIAS"
