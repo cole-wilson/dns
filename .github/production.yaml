@@ -20,3 +20,9 @@ zones:
       - config
     targets:
       - cloudflare
+
+  hogwarts.email.:
+    sources:
+      - config
+    targets:
+      - cloudflare
