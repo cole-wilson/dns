@@ -26,3 +26,9 @@ zones:
       - config
     targets:
       - cloudflare
+
+  yodacat.rocks.:
+    sources:
+      - config
+    targets:
+      - cloudflare
