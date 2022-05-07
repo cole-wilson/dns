@@ -1,2 +1,15 @@
+# main site
 "@" = {type = "ALIAS", value = "apex-loadbalancer.netlify.com."}
 "www" = {type = "CNAME", value = "hogwarts-email.netlify.app."}
+
+# email
+[["@"]]
+type = "MX"
+values = [
+	{exchange="mx1.improvmx.com.", preference = 10},
+	{exchange="mx2.improvmx.com.", preference = 20},
+]
+
+[["@"]]
+type = "TXT"
+values = ["v=spf1 include:spf.improvmx.com ~all"]
