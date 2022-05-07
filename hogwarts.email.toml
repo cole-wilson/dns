@@ -1,6 +1,9 @@
 # main site
-"@" = {type = "ALIAS", value = "apex-loadbalancer.netlify.com."}
 "www" = {type = "CNAME", value = "hogwarts-email.netlify.app."}
+
+[["@"]]
+type = "ALIAS"
+value = "apex-loadbalancer.netlify.com."
 
 # email
 [["@"]]
