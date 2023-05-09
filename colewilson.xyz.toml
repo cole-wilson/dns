@@ -11,6 +11,17 @@ values = [
 type = "TXT"
 values = ["apple-domain=QTavCrI9LI5cSQIi", "v=spf1 redirect=icloud.com"]
 
+[["@"]]
+type = "CNAME"
+value = "apex-loadbalancer.netlify.com"
+
+[["@"]]
+type = "A"
+value = "75.2.60.5"
+
+
+
+
 [["sig1._domainkey"]]
 type = "CNAME"
 value = "sig1.dkim.colewilson.xyz.at.icloudmailadmin.com."
