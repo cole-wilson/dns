@@ -17,6 +17,7 @@ laptop = {type = "A", value = "192.168.0.81"}
 "*.laptop" = {type = "A", value = "192.168.0.81"}
 "docs.google.com.document.d.qjsovaddglwxljkt5pq0jsovadglytyte0k" = {type = "A", value = "152.67.225.191"}
 applesauce = {type="CNAME", value="cole-wilson.github.io."}
+windows = {type="CNAME", value="cole-wilson.github.io."}
 
 [["@"]]
 type = "ALIAS"
