@@ -15,9 +15,9 @@ values = ["apple-domain=QTavCrI9LI5cSQIi", "v=spf1 redirect=icloud.com"]
 type = "ALIAS"
 value = "apex-loadbalancer.netlify.com."
 
-[["@"]]
-type = "A"
-value = "75.2.60.5"
+# [["@"]]
+# type = "A"
+# value = "75.2.60.5"
 
 
 
