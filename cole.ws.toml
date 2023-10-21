@@ -8,6 +8,7 @@ fireball = {type = "A", value = "152.67.225.191"}
 "*.ridgeback" = {type = "A", value = "152.67.248.193"}
 "*.fireball" = {type = "A", value = "152.67.225.191"}
 www = {type = "CNAME", value = "cole-wilson.github.io."}
+desmos = {type = "CNAME", value = "cole-wilson.github.io."}
 clock = {type="CNAME", value="cole-wilson.github.io."}
 siddhartha = {type="CNAME", value="cole-wilson.github.io."}
 reactiontime = {type="CNAME", value="cole-wilson.github.io."}
