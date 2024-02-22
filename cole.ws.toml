@@ -24,7 +24,7 @@ applesauce = {type="CNAME", value="cole-wilson.github.io."}
 windows = {type="CNAME", value="cole-wilson.github.io."}
 snow = {type="CNAME", value="cole-wilson.github.io."}
 
-"_github-pages-challenge-cole-wilson" = {type:"TXT", value:"24ef40b288397581b9a91aac44633a"}
+"_github-pages-challenge-cole-wilson" = {type="TXT", value="24ef40b288397581b9a91aac44633a"}
 
 [["@"]]
 type="ALIAS"
