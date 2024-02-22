@@ -6,6 +6,7 @@ value="apex-loadbalancer.netlify.com."
 type="A"
 value="75.2.60.5"
 
+
 bin = {type = "A", value = "152.67.248.193"}
 assignmentlogger = {type="CNAME", value="cole-wilson.github.io."}
 nosource = {type = "A", value = "152.67.248.193"}
