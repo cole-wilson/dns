@@ -1,10 +1,3 @@
-[["@"]]
-type="ALIAS"
-value="apex-loadbalancer.netlify.com."
-
-[["@"]] 
-type="A"
-value="75.2.60.5"
 
 
 bin = {type = "A", value = "152.67.248.193"}
@@ -30,6 +23,14 @@ laptop = {type = "A", value = "192.168.0.81"}
 applesauce = {type="CNAME", value="cole-wilson.github.io."}
 windows = {type="CNAME", value="cole-wilson.github.io."}
 snow = {type="CNAME", value="cole-wilson.github.io."}
+
+[["@"]]
+type="ALIAS"
+value="apex-loadbalancer.netlify.com."
+
+[["@"]] 
+type="A"
+value="75.2.60.5"
 
 # [["@"]]
 # type = "ALIAS"
