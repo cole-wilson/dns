@@ -28,9 +28,9 @@ snow = {type="CNAME", value="cole-wilson.github.io."}
 type="ALIAS"
 value="apex-loadbalancer.netlify.com."
 
-[["@"]] 
-type="A"
-value="75.2.60.5"
+# [["@"]] 
+# type="A"
+# value="75.2.60.5"
 
 # [["@"]]
 # type = "ALIAS"
