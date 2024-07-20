@@ -6,7 +6,7 @@ gerrymander = {type="CNAME", value="cole-wilson.github.io."}
 
 nosource = {type = "A", value = "152.67.248.193"}
 historytimeline = {type="CNAME", value="cole-wilson.github.io."}
-nightsky = {type="CNAME", value="cole-wilson.github.io."}
+sky = {type="CNAME", value="cole-wilson.github.io."}
 ctf = {type = "A", value = "152.67.248.193"}
 http = {type = "A", value = "152.67.248.193"}
 ridgeback = {type = "A", value = "152.67.248.193"}
