@@ -22,6 +22,7 @@ www = {type = "CNAME", value = "cole-wilson.github.io."}
 desmos = {type = "CNAME", value = "cole-wilson.github.io."}
 apstats = {type = "CNAME", value = "cole-wilson.github.io."}
 clock = {type="CNAME", value="cole-wilson.github.io."}
+hs = {type="A", value = "152.70.117.102"}
 siddhartha = {type="CNAME", value="cole-wilson.github.io."}
 reactiontime = {type="CNAME", value="cole-wilson.github.io."}
 worldcup= {type="CNAME", value="cole-wilson.github.io."}
