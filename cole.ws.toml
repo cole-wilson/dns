@@ -1,4 +1,4 @@
-
+_discord = {type = "TXT", value = "dh=4752e3ac5f77252ebcfa9dec247b7b9fa821fd00"}
 fishies = {type = "A", value = "10.0.0.82"}
 xfinity_login = {type = "A", value = "10.0.0.1"}
 
