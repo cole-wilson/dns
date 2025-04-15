@@ -5,6 +5,7 @@ xfinity_login = {type = "A", value = "10.0.0.1"}
 bin = {type = "A", value = "152.67.248.193"}
 assignmentlogger = {type="CNAME", value="cole-wilson.github.io."}
 gerrymander = {type="CNAME", value="cole-wilson.github.io."}
+fsae-parse = {type="CNAME", value="cole-wilson.github.io."}
 
 benchmarks = {type="CNAME", value="cole-wilson.github.io."}
 bmserver = {type = "A", value = "152.67.248.193"}
