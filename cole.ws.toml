@@ -8,6 +8,7 @@ gerrymander = {type="CNAME", value="cole-wilson.github.io."}
 fsae-parse = {type="CNAME", value="cole-wilson.github.io."}
 
 benchmarks = {type="CNAME", value="cole-wilson.github.io."}
+wof = {type="CNAME", value="cole-wilson.github.io."}
 bmserver = {type = "A", value = "152.67.248.193"}
 
 privatebin = {type = "A", value = "152.67.248.193"}
