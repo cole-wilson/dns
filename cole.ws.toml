@@ -6,7 +6,10 @@ bin = {type = "A", value = "152.67.248.193"}
 assignmentlogger = {type="CNAME", value="cole-wilson.github.io."}
 gerrymander = {type="CNAME", value="cole-wilson.github.io."}
 fsae-parse = {type="CNAME", value="cole-wilson.github.io."}
+
 robosub-website = {type = "CNAME", value = "palouserobosub.github.io."}
+"_github-pages-challenge-PalouseRobosub.robosub-website" = {type = "TXT", value = "f8d0ba2b49ba0fcacfb8b43ae02882"}
+
 benchmarks = {type="CNAME", value="cole-wilson.github.io."}
 wof = {type="CNAME", value="cole-wilson.github.io."}
 bmserver = {type = "A", value = "152.67.248.193"}
